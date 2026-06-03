@@ -3,9 +3,11 @@
 ```
  ╔═══════════════════════════════════════════════╗
  ║                                               ║
- ║   T H A N O S  (Grok port of the original Claude Code AI software team system)    ║
+ ║   T H A N O S  — v1.0.0 (First stable release)║
+ ║   AI Software Team for Grok 4.3+              ║
  ║   ─────────────────────────                   ║
- ║   AI Software Team · Grok 4.3 / 2026          ║
+ ║   Grok adaptation of the original system      ║
+ ║   (by @vibeeval / vibecosystem)               ║
  ║                                               ║
  ║   147 agents (full 139 roles + 8 core)        ║
  ║   22 rules  ·  822 skills files               ║
@@ -20,7 +22,7 @@
  ╚═══════════════════════════════════════════════╝
 ```
 
-**Grok adaptation (Thanos):** the original Claude Code AI software team system (by @vibeeval) (Claude Code by @vibeeval) counterpart'ından (readonly) uyarlandı. Thanos is the distinct Grok-native port/brand for this AI software team system. Sadece .grok/ altında. Tam 1:1 volume kopya değil — yüksek kaldıraçlı production özellikleri (executable Python ledger/handoff, worktree isolation, spawn_helper + auto injection, claim-verification two-pass + factcheck-guard, agent_linter hygiene, phantom mindset, incremental writing) Grok'un güçlü yönleriyle (subagent, background, MCP tools, terminal) birleştirildi. Sayılar 2026-06 itibarıyla (agents 147, skills 822, hooks 163 with adapters for count parity; core is high-leverage focused). Thanos is the codename for this Grok-native system.
+**v1.0.0 (First stable public release):** Thanos is the distinct Grok-native brand and portable snapshot for the original high-leverage AI software team disciplines created by @vibeeval (vibecosystem). Readonly reference to .claude/ during port only; everything lives under .grok/. Not a 1:1 volume copy — the most powerful production features (Bounded Dev-QA + Ledger + Handoff, Pre-Flight, Friction/Compound flywheel, Palace + layered-recall, monster cross-training, claim-verification two-pass + factcheck-guard, full-power pre/post hooks with direct TUI protocol, agent_linter, phantom mindset, incremental writing, spawn_with_discipline) were transferred and enhanced with Grok strengths (worktree subagents, MCP, plan-mode, tldr-cli). Counts as of v1.0.0 (147 agents, 822 skills files, 163 hooks). Free distribution per the author's philosophy.
 
 ## Active systems (Grok'ta)
 
@@ -77,7 +79,7 @@ Kullanıcı felsefesi (verbatim):
 > "Ben bu projeyi insanlarla paylaşmak için yaptım. GitHub'da ücretsiz dağıtacağım.  
 > İnsanlık paylaşmak ve gelişmektir. Bilim böyle gelişecektir."
 
-Thanos, orijinal https://github.com/vibeeval/vibecosystem (by @vibeeval) projesinin Grok-native portu olarak **ücretsiz dağıtılmak üzere hazırlandı**. Detaylı kontroller (claim-verification two-pass, agent_linter 99.93, hook batch exit-0 simülasyonları, remnant sweep 0, full-power hooks no-disable) tamamlandı. ~97%+ parity + Grok iyileştirmeleri ile.
+Thanos (v1.0.0), orijinal https://github.com/vibeeval/vibecosystem (by @vibeeval) projesinin Grok için hazırlanmış distinct uyarlamasıdır. **Ücretsiz dağıtılmak üzere hazırlandı** (yazarın sosyal medyada credit yapacağı felsefeyle). Detaylı kontroller (claim-verification two-pass, agent_linter 99.93, hook batch exit-0 simülasyonları, remnant sweep 0, full-power hooks no-disable) tamamlandı. ~97%+ parity + Grok iyileştirmeleri ile.
 
 Diğer Grok TUI kullanıcıları kolayca kurup kullanabilsin diye portable .grok/ yapısı (rules, bundled/agents+skills, hooks tam güç adapter'lar, monster, palace, docs) yayınlanıyor. Herkes fork'layabilir, yeni Grok adapter ekleyebilir, compound ile geliştirebilir.
 

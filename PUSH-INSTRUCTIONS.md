@@ -2,7 +2,7 @@
 
 ## 1. Local Setup (already done in this folder)
 
-This folder (C:\Users\kaana\thanos) contains the clean, portable export ready for public release.
+This folder (C:\Users\kaana\thanos) contains the clean, portable export for the v1.0.0 public release (and future updates).
 
 ## 2. Initialize Git (if not already)
 
@@ -10,22 +10,26 @@ This folder (C:\Users\kaana\thanos) contains the clean, portable export ready fo
 cd C:\Users\kaana\thanos
 git init
 git add .
-git commit -m "feat: initial public release of Thanos
+git commit -m "chore(release): v1.0.0 - First stable public release of Thanos
 
-Grok-native port of the original Claude Code AI software team (vibecosystem by @vibeeval)
+THANOS - Your AI software team. Built on Grok
+(adapted from vibecosystem by @vibeeval — original credit on social by author)
 
-- 147 agents with full Production Contract + linter 99.9
-- 311 skill directories, 100% activation
-- 22 rules (high-leverage ported + Grok adaptations)
-- 161+ hooks with full power (no disable, direct TUI protocol)
-- Monster cross-training CLI
-- Palace + layered-recall + pre-compact full
-- Public release after detailed verification (claim-verif, remnant 0, etc.)
+- 147 agents (full Production Contract in every file + agent_linter 99.93)
+- 822+ skills entries / 311 dirs (100% activation)
+- 22 rules (high-value port + Grok adaptations)
+- 163+ hooks with full power (pre/post, no disable, direct TUI spawn protocol with handle + reportHealth)
+- monster cross-training (CLI + ledger + matrix + broadcast)
+- Palace + layered-recall + wip-state + pre-compact
+- Bounded Dev-QA + ledger + handoff + preflight + compound flywheel + claim-verification two-pass
+- Bilingual README (EN first, full TR below)
+- Adapted CoC / CONTRIBUTING / SECURITY
+- Full verification (claim-verif, linter, hook sims 0-fail, remnant 0)
 
-İnsanlık paylaşmak ve gelişmektir. Bilim böyle gelişecektir.
+Philosophy (verbatim): "Ben bu projeyi insanlarla paylaşmak için yaptım. GitHub'da ücretsiz dağıtacağım. İnsanlık paylaşmak ve gelişmektir. Bilim böyle gelişecektir."
 
 Original: https://github.com/vibeeval/vibecosystem by @vibeeval
-This repo: the Grok (Thanos) adaptation and distributable snapshot."
+This repo: https://github.com/iamkaanalper/thanos (free portable snapshot for Grok TUI)"
 ```
 
 ## 3. Create GitHub Repo

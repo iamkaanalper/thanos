@@ -1,5 +1,7 @@
 # THANOS - Your AI software team. Built on Grok
 
+**v1.0.0 — First stable public release**
+
 **https://github.com/iamkaanalper/thanos**
 
 **Star & contribute:** https://github.com/iamkaanalper/thanos — original credit on social media by the author.
@@ -173,13 +175,15 @@ Humanity is sharing and developing. This is how science progresses.
 
 ---
 
-*This README was prepared for public distribution after all detailed checks (claim-verif, linter, hook batch 0-fail, remnant 0, full power) were completed. 2026-06.*
+*This README was prepared for the v1.0.0 public release after all detailed checks (claim-verif two-pass, agent_linter 99.93, hook batch 0-fail, remnant 0, full power no-disable) were completed. 2026-06.*
 
 ---
 
 ## Türkçe
 
 # THANOS - Grok Üzerine Kurulmuş AI Yazılım Ekibiniz
+
+**v1.0.0 — İlk kararlı kamu sürümü**
 
 **https://github.com/iamkaanalper/thanos**
 
@@ -354,4 +358,4 @@ Pull request'ler, issue'lar, fork'lar hoş geldiniz. Bilim böyle ilerler.
 
 ---
 
-*Bu README, detaylı kontroller tamamlandıktan sonra (claim-verif, linter, hook batch 0-fail, remnant 0, full power) paylaşım için hazırlandı. 2026-06.*
+*Bu README, v1.0.0 kamu sürümü için tüm detaylı kontroller (claim-verif two-pass, agent_linter 99.93, hook batch 0-fail, remnant 0, full power no-disable) tamamlandıktan sonra hazırlandı. 2026-06.*

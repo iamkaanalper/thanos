@@ -4,7 +4,7 @@
 
 | Version | Supported |
 |---------|-----------|
-| 1.x (current snapshot) | Yes       |
+| 1.0 (current) | Yes       |
 | < 1.0   | No        |
 
 ## Reporting a Vulnerability
