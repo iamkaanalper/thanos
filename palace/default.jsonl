@@ -1,0 +1,2 @@
+{"id": "d-001", "wing": "default", "room": "general", "content": "Initial palace setup for Grok Thanos port (original the original Claude Code AI software team system project).", "tags": ["setup", "memory"], "timestamp": "2026-06-01T00:00:00Z", "type": "decision", "agent": "system"}
+{"id": "d-002", "wing": "default", "room": "session-state", "content": "Pre-compact snapshot example from madde-4.", "tags": ["pre-compact", "auto"], "timestamp": "2026-06-01T12:00:00Z", "type": "state", "agent": "hook"}

@@ -1,0 +1,9 @@
+{
+  "wings": {
+    "default": {
+      "rooms": ["general", "auth", "infra", "session-state"],
+      "last_updated": "2026-06"
+    }
+  },
+  "note": "Grok memory-palace index. Wings per project, rooms per domain. Drawers in wing-*.jsonl"
+}

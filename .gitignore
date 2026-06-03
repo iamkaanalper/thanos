@@ -1,0 +1,48 @@
+﻿# Thanos public repo .gitignore
+# Never commit personal Grok runtime data
+
+# Personal / sensitive (never publish these)
+sessions/
+auth.json
+auth.json.lock
+logs/
+downloads/
+active_sessions*
+tip_cursor.json
+marketplace-cache/
+vendor/
+*.lock
+
+# Large or transient
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*~
+
+# Temporary test exports
+temp-*/
+export-*/

@@ -1,0 +1,16 @@
+﻿if __name__ == " __main__\:
+ # Safe guard for TUI direct pre/post_tool_use (global/settings.local). Self-contained, no external name deps.
+ try:
+ import sys as _sys
+ try:
+ from pathlib import Path as _Path
+ _name = _Path(__file__).name.replace('auto_', '').replace('.py', '')
+ except Exception:
+ _name = __file__.rsplit('auto_', 1)[-1].replace('.py', '') if 'auto_' in __file__ else 'hook'
+ rh = globals().get('reportHealth')
+ if rh:
+ rh('direct:' + _name, 'standalone')
+ except Exception:
+ pass
+ import sys as _sys
+ _sys.exit(0)

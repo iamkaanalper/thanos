@@ -1,0 +1,879 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-06-02T18:50:12.198026+00:00",
+  "agents": {
+    "kraken": {
+      "success_rate": 92,
+      "error_count": 3,
+      "lessons_learned": 5,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "large-tdd",
+        "producer"
+      ]
+    },
+    "spark": {
+      "success_rate": 95,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "small-fix"
+      ]
+    },
+    "verifier": {
+      "success_rate": 98,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 90,
+      "last_error": null,
+      "tags": [
+        "quality-gate"
+      ]
+    },
+    "self-learner": {
+      "success_rate": 85,
+      "error_count": 2,
+      "lessons_learned": 8,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "learning",
+        "compound"
+      ]
+    },
+    "reviewer": {
+      "success_rate": 90,
+      "error_count": 4,
+      "lessons_learned": 4,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "review"
+      ]
+    },
+    "architect": {
+      "success_rate": 88,
+      "error_count": 2,
+      "lessons_learned": 3,
+      "avg_evolution_score": 91,
+      "last_error": null,
+      "tags": [
+        "design"
+      ]
+    },
+    "designer": {
+      "success_rate": 93,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "ui-ux"
+      ]
+    },
+    "backend-dev": {
+      "success_rate": 91,
+      "error_count": 2,
+      "lessons_learned": 3,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "api"
+      ]
+    },
+    "e2e-runner": {
+      "success_rate": 89,
+      "error_count": 1,
+      "lessons_learned": 1,
+      "avg_evolution_score": 80,
+      "last_error": null,
+      "tags": [
+        "e2e"
+      ]
+    },
+    "qa-engineer": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 2,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "qa-strategy"
+      ]
+    },
+    "oracle": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "research"
+      ]
+    },
+    "coroner": {
+      "success_rate": 87,
+      "error_count": 3,
+      "lessons_learned": 6,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "post-mortem"
+      ]
+    },
+    "janitor": {
+      "success_rate": 92,
+      "error_count": 1,
+      "lessons_learned": 4,
+      "avg_evolution_score": 81,
+      "last_error": null,
+      "tags": [
+        "hygiene"
+      ]
+    },
+    "migrator": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "deps"
+      ]
+    },
+    "shipper": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "release"
+      ]
+    },
+    "replay": {
+      "success_rate": 88,
+      "error_count": 2,
+      "lessons_learned": 3,
+      "avg_evolution_score": 79,
+      "last_error": null,
+      "tags": [
+        "repro"
+      ]
+    },
+    "catalyst": {
+      "success_rate": 91,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "scaffold"
+      ]
+    },
+    "arbiter": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "test-arbiter"
+      ]
+    },
+    "mocksmith": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 80,
+      "last_error": null,
+      "tags": [
+        "fixtures"
+      ]
+    },
+    "tdd-guide": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 2,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "tdd"
+      ]
+    },
+    "security-reviewer": {
+      "success_rate": 97,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "security"
+      ]
+    },
+    "build-error-resolver": {
+      "success_rate": 92,
+      "error_count": 2,
+      "lessons_learned": 4,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "build-fix"
+      ]
+    },
+    "sleuth": {
+      "success_rate": 90,
+      "error_count": 3,
+      "lessons_learned": 5,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "investigation"
+      ]
+    },
+    "scout": {
+      "success_rate": 95,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "exploration"
+      ]
+    },
+    "profiler": {
+      "success_rate": 89,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "perf"
+      ]
+    },
+    "compliance-expert": {
+      "success_rate": 98,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 90,
+      "last_error": null,
+      "tags": [
+        "compliance"
+      ]
+    },
+    "technical-writer": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "docs"
+      ]
+    },
+    "doc-updater": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 81,
+      "last_error": null,
+      "tags": [
+        "docs-maintenance"
+      ]
+    },
+    "gcp-expert": {
+      "success_rate": 91,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "gcp"
+      ]
+    },
+    "aws-expert": {
+      "success_rate": 92,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "aws"
+      ]
+    },
+    "azure-expert": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "azure"
+      ]
+    },
+    "go-reviewer": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "go-review"
+      ]
+    },
+    "python-reviewer": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "python-review"
+      ]
+    },
+    "grpc-expert": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "grpc"
+      ]
+    },
+    "accessibility-auditor": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "a11y"
+      ]
+    },
+    "feature-flag-expert": {
+      "success_rate": 92,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "flags"
+      ]
+    },
+    "load-tester": {
+      "success_rate": 88,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 80,
+      "last_error": null,
+      "tags": [
+        "load"
+      ]
+    },
+    "vector-db-expert": {
+      "success_rate": 91,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "vector"
+      ]
+    },
+    "kafka-expert": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "kafka"
+      ]
+    },
+    "elasticsearch-expert": {
+      "success_rate": 89,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 81,
+      "last_error": null,
+      "tags": [
+        "es"
+      ]
+    },
+    "terraform-expert": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "terraform"
+      ]
+    },
+    "kubernetes-expert": {
+      "success_rate": 92,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "k8s"
+      ]
+    },
+    "mongodb-expert": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "mongo"
+      ]
+    },
+    "redis-expert": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "redis"
+      ]
+    },
+    "oauth-expert": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "oauth"
+      ]
+    },
+    "vault": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "db-dba"
+      ]
+    },
+    "neuron": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "ml-data"
+      ]
+    },
+    "nitro": {
+      "success_rate": 89,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "perf-eng"
+      ]
+    },
+    "sentinel": {
+      "success_rate": 91,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "sre"
+      ]
+    },
+    "nexus": {
+      "success_rate": 92,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "gateway"
+      ]
+    },
+    "babel": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "i18n"
+      ]
+    },
+    "commander": {
+      "success_rate": 88,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 80,
+      "last_error": null,
+      "tags": [
+        "eng-mgr"
+      ]
+    },
+    "observability-expert": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "obs"
+      ]
+    },
+    "data-analyst": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "data"
+      ]
+    },
+    "database-reviewer": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "db-review"
+      ]
+    },
+    "devops-expert": {
+      "success_rate": 91,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "devops"
+      ]
+    },
+    "ai-engineer": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "ai-llm"
+      ]
+    },
+    "implementer": {
+      "success_rate": 92,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "impl"
+      ]
+    },
+    "general-purpose": {
+      "success_rate": 85,
+      "error_count": 3,
+      "lessons_learned": 4,
+      "avg_evolution_score": 78,
+      "last_error": null,
+      "tags": [
+        "general"
+      ]
+    },
+    "explore": {
+      "success_rate": 93,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 81,
+      "last_error": null,
+      "tags": [
+        "explore"
+      ]
+    },
+    "planner": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "plan"
+      ]
+    },
+    "refactor-cleaner": {
+      "success_rate": 92,
+      "error_count": 1,
+      "lessons_learned": 3,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "refactor"
+      ]
+    },
+    "frontend-dev": {
+      "success_rate": 93,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "frontend"
+      ]
+    },
+    "project-manager": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "pm"
+      ]
+    },
+    "harvest": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "harvest"
+      ]
+    },
+    "pathfinder": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "pathfinder"
+      ]
+    },
+    "team-dynamics-profiler-architect-selflearner": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 91,
+      "last_error": null,
+      "tags": [
+        "team-dynamics"
+      ]
+    },
+    "test-enforcement": {
+      "success_rate": 97,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "test"
+      ]
+    },
+    "friction-curator": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 87,
+      "last_error": null,
+      "tags": [
+        "friction"
+      ]
+    },
+    "compound-learnings": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 2,
+      "avg_evolution_score": 90,
+      "last_error": null,
+      "tags": [
+        "compound"
+      ]
+    },
+    "preflight": {
+      "success_rate": 98,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 92,
+      "last_error": null,
+      "tags": [
+        "preflight"
+      ]
+    },
+    "handoff": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "handoff"
+      ]
+    },
+    "design": {
+      "success_rate": 92,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "design"
+      ]
+    },
+    "review": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 88,
+      "last_error": null,
+      "tags": [
+        "review"
+      ]
+    },
+    "security-review": {
+      "success_rate": 97,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 90,
+      "last_error": null,
+      "tags": [
+        "security-review"
+      ]
+    },
+    "check-work": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 86,
+      "last_error": null,
+      "tags": [
+        "check"
+      ]
+    },
+    "best-of-n": {
+      "success_rate": 91,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "best-of-n"
+      ]
+    },
+    "pr-babysit": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 85,
+      "last_error": null,
+      "tags": [
+        "pr"
+      ]
+    },
+    "skill-evolution": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 89,
+      "last_error": null,
+      "tags": [
+        "skill-evo"
+      ]
+    },
+    "experiment-loop": {
+      "success_rate": 90,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "experiment"
+      ]
+    },
+    "agent-tamagotchi": {
+      "success_rate": 88,
+      "error_count": 1,
+      "lessons_learned": 2,
+      "avg_evolution_score": 79,
+      "last_error": null,
+      "tags": [
+        "tamagotchi"
+      ]
+    },
+    "memory-palace": {
+      "success_rate": 96,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 91,
+      "last_error": null,
+      "tags": [
+        "memory"
+      ]
+    },
+    "create-skill": {
+      "success_rate": 92,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "skill-create"
+      ]
+    },
+    "help": {
+      "success_rate": 99,
+      "error_count": 0,
+      "lessons_learned": 0,
+      "avg_evolution_score": 93,
+      "last_error": null,
+      "tags": [
+        "help"
+      ]
+    },
+    "docx": {
+      "success_rate": 94,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 83,
+      "last_error": null,
+      "tags": [
+        "docx"
+      ]
+    },
+    "pptx": {
+      "success_rate": 93,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 82,
+      "last_error": null,
+      "tags": [
+        "pptx"
+      ]
+    },
+    "xlsx": {
+      "success_rate": 95,
+      "error_count": 0,
+      "lessons_learned": 1,
+      "avg_evolution_score": 84,
+      "last_error": null,
+      "tags": [
+        "xlsx"
+      ]
+    }
+  },
+  "notes": "Seeded from bundled/agents list + linter trends. Updated via monster broadcast + compound. Scores 0-100. 5-dim evolution analog: success, lessons, impact, consistency, improvement."
+}
