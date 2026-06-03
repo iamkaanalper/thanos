@@ -47,7 +47,7 @@
 - **Spawn Helper + Discipline:** bundled/skills/shared/spawn_helper.py (build_spawn_context + spawn_with_discipline). Swarm, implement, execute-plan'da Production Contract guard'lı kullanım. Ledger/handoff/friction/contract otomatik non-trivial spawn'larda.
 - **Agents breadth + hygiene:** 69 agents (core + matrix primaries + long-tail). Full linter hygiene pass (frontmatter, heading, sections, contract refs). Avg 99.8, 69/69 pass. Yeni: grpc-expert, accessibility-auditor, feature-flag-expert (100/pass).
 - **Executable primitives:** task_lifecycle (Bounded QA), handoff skill + templates, preflight, friction + completion_friction, compound-learnings + curator.
-- **Rules port (high-leverage):** qa-loop, claim-verification (two-pass + factcheck-guard), phantom-mindset, hooks, safety-and-quality, auto-skill-activation, monster, research-confidence (90% rule), tldr-cli, proactive-delegation, commit-trailers, coding-style, incremental-writing, memory-system, pre-compact-state, hizir-identity, thanos-welcome (bu), + daha fazlası.
+- **Rules port (high-leverage):** qa-loop, claim-verification (two-pass + factcheck-guard), phantom-mindset, hooks, safety-and-quality, auto-skill-activation, monster, research-confidence (90% rule), tldr-cli, proactive-delegation, commit-trailers, coding-style, incremental-writing, memory-system, pre-compact-state, tesla-identity, thanos-welcome (bu), + daha fazlası.
 - **Hooks otomasyonu:** auto_friction_record, auto_compound_*, auto_preflight, auto_swarm_phase, auto_monster_broadcast, auto_tamagotchi, auto_session_compressor, auto_palace, auto_spawn_injector + hook_runner + health ledger.
 - **Docs & verification:** transfer-status, production-roadmap, agent-assignment-matrix, getting-started, user-guide, plan.md (sessions), 100-PERCENT-COMPLETE referansları. Her ajan/kural için linter + read_file + claim-verif.
 
@@ -55,7 +55,7 @@
 
 | Command / Skill | What it does |
 |-----------------|--------------|
-| `/hizir` | Kullanım kılavuzu (rules + docs) |
+| `/tesla` | Kullanım kılavuzu (rules + docs) |
 | `/swarm <task>` | Full team activation (5-phase + ledger + handoff + friction/compound) |
 | `/implement [--effort N]` | TDD + multi-reviewer + verifier + ledger döngüsü |
 | `/fix <bug>` | sleuth → spark/kraken → coroner → verifier |

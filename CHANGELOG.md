@@ -4,6 +4,21 @@ All notable changes to the Thanos (Grok AI software team) portable snapshot will
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2026-06
+
+### Changed
+- **Command rename (new arrangement):** `/hizir` → `/tesla` everywhere.
+  - Renamed supporting structure: `rules/hizir-identity.md` → `rules/tesla-identity.md`, `skills/hizir/` → `skills/tesla/`.
+  - Updated all user-facing docs (README EN+TR, thanos-welcome.md, INSTALL.md), source docs, export script, historical transfer records, agent references, and skill adapters.
+  - Rewrote identity and adapter docs to reflect "Tesla" as the usage guide / help command while preserving full functionality, Production Contract, and history notes ("formerly /hizir").
+- Updated rules list references from `hizir-identity` to `tesla-identity` in READMEs and welcome files (both published snapshot and .grok/ source).
+- Version bump throughout for v1.0.1 release.
+
+### Notes
+- This is a non-breaking reorganization of the entry-point command for the usage guide. All other Thanos disciplines (agents, hooks, ledger, compound, Palace, etc.) remain unchanged.
+- The `tesla` skill (Grok Adapter) and `tesla-identity` rule now power the `/tesla` command.
+- Source (.grok/) and portable snapshot (thanos/) kept in sync for future exports.
+
 ## [1.0.0] - 2026-06
 
 ### Added

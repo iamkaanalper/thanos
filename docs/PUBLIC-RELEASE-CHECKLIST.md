@@ -10,7 +10,7 @@
 - [x] Agents: 147 .md (glob + list_dir + python sweep ile teyit)
 - [x] Skills: 311 dir, 609 .md (311/311 SKILL.md + Contract)
 - [x] Hooks: 161+ (64+ bulk full-power __main__ + handle(data) + reportHealth; batch 0 fail)
-- [x] Rules: 22 (yüksek değerli + monster + claim-verif + qa-loop + phantom + hooks + safety + coding-style + incremental + memory + pre-compact + auto-activation + tldr + proactive + commit-trailers + cross-project + collaborative + performance + agents + handoff + hizir + thanos-welcome)
+- [x] Rules: 22 (yüksek değerli + monster + claim-verif + qa-loop + phantom + hooks + safety + coding-style + incremental + memory + pre-compact + auto-activation + tldr + proactive + commit-trailers + cross-project + collaborative + performance + agents + handoff + tesla + thanos-welcome)
 - [x] Monster: .grok/monster/ (monster.py CLI + error-ledger + skill-matrix + autos) — 0 "canavar" aktif remnant
 - [x] Palace / Layered: .grok/palace/ + .grok/projects/default/ + layered-recall skill + auto hooks
 - [x] Linter: son batch 99.93 avg (144/147 @100, min 92 only on combined team-dynamics)

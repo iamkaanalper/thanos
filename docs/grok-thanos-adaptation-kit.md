@@ -199,4 +199,4 @@ From the live tests (Senaryo B):
 
 All artifacts are under `.grok/`. The constraint "hiçbir ~/.claude/ dosyasına dokunmadık" was honored on every step.
 
-— Hızır (Grok adaptation track, June 2026)
+— Tesla (Grok adaptation track, June 2026)

@@ -1,6 +1,6 @@
 # THANOS - Your AI software team. Built on Grok
 
-**v1.0.0 — First stable public release**
+**v1.0.1 — Command rename: /hizir → /tesla (new arrangement)**
 
 **https://github.com/iamkaanalper/thanos**
 
@@ -69,7 +69,7 @@ Recommended portable layout:
 
 ```
 ~/.grok/
-├── rules/                  # 22 rules (thanos-welcome, monster, claim-verification, qa-loop, phantom, hooks, safety, coding-style, incremental-writing, memory-system, pre-compact, auto-skill-activation, tldr-cli, proactive-delegation, commit-trailers, collaborative-decisions, performance, agents, handoff-templates, hizir-identity, cross-project-learning, research-confidence)
+├── rules/                  # 22 rules (thanos-welcome, monster, claim-verification, qa-loop, phantom, hooks, safety, coding-style, incremental-writing, memory-system, pre-compact, auto-skill-activation, tldr-cli, proactive-delegation, commit-trailers, collaborative-decisions, performance, agents, handoff-templates, tesla-identity, cross-project-learning, research-confidence)
 ├── bundled/
 │   ├── agents/             # 147 .md (complete 139 roles + Grok adapters + 8 core; every file contains the verbatim Production Contract)
 │   ├── skills/             # core orchestrators (implement, execute-plan, review, swarm, preflight, friction-curator, compound-learnings, handoff, task_lifecycle, spawn_helper, agent_linter, ...) + shared/
@@ -113,7 +113,7 @@ Then restart the Grok TUI. When the TUI directly spawns the Python adapter hooks
 
 | Command / Skill            | What it does |
 |----------------------------|--------------|
-| `/hizir`                   | Usage guide (rules + docs) |
+| `/tesla`                   | Usage guide (rules + docs) |
 | `/swarm <task>`            | 5-phase full team activation (Discovery → Development → Review → Fix → Final) + ledger + handoff + friction/compound + phase gate |
 | `/implement [--effort N]`  | TDD + multi-reviewer + verifier + bounded Dev-QA loop |
 | `/fix <bug>`               | sleuth → spark/kraken → coroner → verifier |
@@ -175,7 +175,7 @@ Humanity is sharing and developing. This is how science progresses.
 
 ---
 
-*This README was prepared for the v1.0.0 public release after all detailed checks (claim-verif two-pass, agent_linter 99.93, hook batch 0-fail, remnant 0, full power no-disable) were completed. 2026-06.*
+*This README was prepared for the v1.0.1 public release (command rename /hizir → /tesla + full structure/docs sync) after verification. 2026-06.*
 
 ---
 
@@ -183,7 +183,7 @@ Humanity is sharing and developing. This is how science progresses.
 
 # THANOS - Grok Üzerine Kurulmuş AI Yazılım Ekibiniz
 
-**v1.0.0 — İlk kararlı kamu sürümü**
+**v1.0.1 — Komut yeniden adlandırma: /hizir → /tesla (yeni düzenleme)**
 
 **https://github.com/iamkaanalper/thanos**
 
@@ -252,7 +252,7 @@ Ledger, handoff, preflight, friction capture, compound, palace recall ve monster
 
 ```
 ~/.grok/
-├── rules/                  # 22 kural (thanos-welcome, monster, claim-verification, qa-loop, phantom, hooks, safety, coding-style, incremental-writing, memory-system, pre-compact, auto-skill-activation, tldr-cli, proactive-delegation, commit-trailers, collaborative-decisions, performance, agents, handoff-templates, hizir-identity, cross-project-learning, research-confidence)
+├── rules/                  # 22 kural (thanos-welcome, monster, claim-verification, qa-loop, phantom, hooks, safety, coding-style, incremental-writing, memory-system, pre-compact, auto-skill-activation, tldr-cli, proactive-delegation, commit-trailers, collaborative-decisions, performance, agents, handoff-templates, tesla-identity, cross-project-learning, research-confidence)
 ├── bundled/
 │   ├── agents/             # 147 .md (tam 139 rol + Grok adapter'lar + 8 core; her birinde verbatim Production Contract)
 │   ├── skills/             # core orchestrator'lar (implement, execute-plan, review, swarm, preflight, friction-curator, compound-learnings, handoff, task_lifecycle, spawn_helper, agent_linter, ...) + shared/
@@ -296,7 +296,7 @@ Sonra Grok TUI'yi yeniden başlatın. Hook'lar (python adapter'lar) TUI tarafın
 
 | Komut / Skill              | Ne yapar |
 |----------------------------|----------|
-| `/hizir`                   | Kullanım kılavuzu (rules + docs) |
+| `/tesla`                   | Kullanım kılavuzu (rules + docs) |
 | `/swarm <görev>`           | 5-phase tam ekip aktivasyonu (Keşif → Geliştirme → Review → Düzeltme → Final) + ledger + handoff + friction/compound + phase gate |
 | `/implement [--effort N]`  | TDD + multi-reviewer + verifier + bounded Dev-QA döngüsü |
 | `/fix <hata>`              | sleuth → spark/kraken → coroner → verifier |
@@ -358,4 +358,4 @@ Pull request'ler, issue'lar, fork'lar hoş geldiniz. Bilim böyle ilerler.
 
 ---
 
-*Bu README, v1.0.0 kamu sürümü için tüm detaylı kontroller (claim-verif two-pass, agent_linter 99.93, hook batch 0-fail, remnant 0, full power no-disable) tamamlandıktan sonra hazırlandı. 2026-06.*
+*Bu README, v1.0.1 kamu sürümü (/hizir → /tesla komut yeniden adlandırma + tüm yapı/döküman güncellemesi) için hazırlandı. 2026-06.*

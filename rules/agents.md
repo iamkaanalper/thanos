@@ -96,7 +96,7 @@ For complex problems, use split role sub-agents (via spawn_subagent parallel):
 - Spawn: `spawn_subagent` + `spawn_with_discipline` (build_spawn_context via spawn_helper) — ledger/handoff/friction/contract otomatik.
 - Isolation: producer'larda `isolation: worktree` (true parallel, no shared file pollution).
 - Hooks: on_agent_spawn (context injection: ledger snapshot + handoff + friction hint + contract reminder), on_run_completion (friction), on_bounded_loop_end.
-- Matrix: .grok/docs/agent-assignment-matrix.md (high-freq dedicated ajanlar + escalation + severity + hizir-only).
+- Matrix: .grok/docs/agent-assignment-matrix.md (high-freq dedicated ajanlar + escalation + severity + tesla-only).
 - Self-improvement: friction → compound → rule/agent/skill evolution (self-learner + compound-learnings).
 - Claim-verification: Her varlık iddiası öncesi two-pass (hypothesize ?INFERRED → read_file ✓VERIFIED). agent_linter + factcheck-guard skill.
 - No .claude/ touch. Tüm iş .grok/ altında.
