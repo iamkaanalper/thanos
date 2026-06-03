@@ -12,7 +12,7 @@
 
 Please read them before contributing. Original credit to @vibeeval on social media by the author.
 
-> "I created this project to share with people. I will distribute it for free on GitHub.  
+> "I created this project to share with people.   
 > Humanity is sharing and developing. This is how science progresses."
 
 With this philosophy, we offer high-leverage disciplines (Bounded Dev-QA Loop, Production Contract, Structured Handoff, Pre-Flight, Friction/Compound self-improvement flywheel, Palace layered memory, monster cross-training, claim-verification two-pass, full-power pre/post hooks) to Grok TUI users completely free. Anyone can build upon it, extend it, and improve it.
