@@ -4,6 +4,10 @@
 
 **Star & contribute:** https://github.com/iamkaanalper/thanos — original credit on social media by the author.
 
+## Community
+
+We follow a [Code of Conduct](CODE_OF_CONDUCT.md) adapted from the original vibecosystem project. Please read it before contributing.
+
 > Bu repo, Grok TUI kullanıcıları için ücretsiz dağıtılan portable snapshot'tır.  
 > Geliştirme .grok/ kurulumunda devam eder; burası yayın için temizlenmiş halidir.
 
