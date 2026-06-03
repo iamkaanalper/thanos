@@ -6,7 +6,11 @@
 
 ## Community
 
-We follow a [Code of Conduct](CODE_OF_CONDUCT.md) adapted from the original vibecosystem project. Please read it before contributing.
+- [Code of Conduct](CODE_OF_CONDUCT.md) — adapted from the original vibecosystem project.
+- [Contributing Guidelines](CONTRIBUTING.md) — how to add agents, skills, hooks, and improvements.
+- [Security Policy](SECURITY.md) — how to report vulnerabilities responsibly.
+
+Please read them before contributing. Original credit to @vibeeval on social media by the author.
 
 > Bu repo, Grok TUI kullanıcıları için ücretsiz dağıtılan portable snapshot'tır.  
 > Geliştirme .grok/ kurulumunda devam eder; burası yayın için temizlenmiş halidir.
